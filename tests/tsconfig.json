@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "references": [
+    {
+      "name": "ts-lib",
+      "path": "..",
+    }
+  ],
+  "compilerOptions": {
+    "types": [
+      "jest"
+    ],
+    "rootDir": "..",
+    "noEmit": true
+  },
+  "include": [
+    "."
+  ]
+}
